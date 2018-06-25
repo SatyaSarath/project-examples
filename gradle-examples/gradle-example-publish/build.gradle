@@ -45,10 +45,10 @@ allprojects {
     }
 }
 
-artifactoryPublish.skip = true
+artifactoryPublish.skip = false
 
 project('services') {
-    artifactoryPublish.skip = true
+    artifactoryPublish.skip = false
 }
 
 configure(javaProjects()) {
